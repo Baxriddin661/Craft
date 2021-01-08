@@ -408,7 +408,7 @@ right: 0px;
 .contact-text{
     position: relative;
     top: 150px;
-    left: 100px;
+    margin-left: 100px;
 }
 
 /* Map */
@@ -463,5 +463,76 @@ right: 0px;
     left: 100px;
 }
 
+/* About Us */
+.about-services h1{
+    margin-top: 100px;
+    text-align: center;
+    color: #3f8fff;
+}
 
+.saytlar{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.conti{
+    width: 17rem;
+    padding: 12px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100%;
+}
+.sayt{
+    margin: auto;
+    width: 30%;
+    border: #aaa solid 1px;
+    box-shadow: 5px 2px 3px #aaa;
+    height: 22rem;
+
+}
+
+.sayt .img{
+    width : 100%;
+    height: 120px;
+    border: #aaa solid 1px;
+}
+
+.sayt .img1{
+    background: url(../Craft.jpg)no-repeat center / cover;
+}
+
+.sayt .img2{
+    
+    background: url(../Uzbekkids.jpg)no-repeat center / cover;
+    
+}
+
+.sayt .img3{
+    
+    background: url(../Egypt.jpg)no-repeat center / cover;
+    
+}
+
+.sayt .conti{
+    color: #444;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;   
+    
+}
+
+.sayt .conti h2{
+    width: 100%;
+    text-align: center;
+}
+
+.sayt .conti h2{
+    color: #000;
+
+}
